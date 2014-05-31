@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+    height : 100%;
+    width : 100%;
+    margin : 0;
+    padding : 0;
+    background-image:url(../images/backgr.jpg);	
+    background-repeat:repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+#showr{
+    color: #FFFF00;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 20px;
+    font-style: italic;
+    height: 26px;
+    padding-left: 140px;
+    padding-top: 75px;
+    width: 100%;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+.docs{
+    margin-top: 15px;
+}
+#datalist{
+    margin-top: 50px;
+}
+.title{
+    font-size: 25px;
+}
+.sform {
+    position : absolute;
+    top : 20%;
+    left : 8%;
+    width : 80%;
+    margin : 0;
+    z-index : 8;
+}
+
+.logoBKS {
+    background : transparent url(../images/logo_1.png) no-repeat;
+    background-position : center;
+    overflow : hidden;
+    margin : -5px 15px 0 0;
+    width : 135px;
+    height : 50px;
+    float : left;
+    text-indent : -20em;
+}
+
+.op{
+    background: #ABD7F3;
+}
+.sb {
+    float : left;
+    //background : #fff;
+    padding : 0.19em 3px 1.06em 0;
+    height : 23px;
+    position : relative;
+}
+
+#sbox .textbox {
+    width : 500px;
+}
+
+.bts {
+    background:transparent url(../images/icon.png) center;
+    overflow:hidden;
+}
+
+.sb .bts {
+    cursor : pointer;
+    height : 37px;
+    width : 37px;
+    margin : 0 0 -14px;
+    overflow : hidden;
+    font-size : 0;
+    border : red solid 5px;
+    background-color : red;
+}
+
+.sb input {
+    font-family : "Segoe UI", Segoe, Tahoma, Arial, Verdana, sans-serif;
+    float : left;
+    border : 0;
+    font-size : 18px;
+    margin : 5px 5px -1em 9px;
+    width : 375px;
+    outline : none;
+    padding : 0;
+    height : 27px;
+}
+.img{
+    padding: 20px;
+}
+.tooltip{
+    display: none;
+    position: absolute;
+    top:-25px;
+    left:-100%;
+    white-space:nowrap;
+    font-size:12px;
+    font-family:arial,sans-serif;
+    padding:6px 17px;
+    border-radius:3px;
+    color:white;
+    background-color:#101010;
+    text-shadow:0 1px 0 rgba(0,0,0,0.7);
+    box-shadow:0 1px 1px  rgba(0,0,0,1);
+}
